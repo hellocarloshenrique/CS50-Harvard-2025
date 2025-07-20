@@ -2,15 +2,16 @@
 
 int main(void)
 {
-    float x;
+    int x;
     printf("x: ");
-    scanf("%f", &x);
+    scanf("%i", &x);
 
-    float y;
+    int y;
     printf("y: ");
-    scanf("%f", &y);
+    scanf("%i", &y);
 
-    float z = x / y;
+    int z = x / y;
 
-    printf("resultado e: %f\n", z);
+    // posso adicionar o flaot apenas no resoltado sem alterar o int nos blocos
+    printf("resultado e: %f\n", (float) z);
 }
