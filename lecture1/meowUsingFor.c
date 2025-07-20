@@ -6,9 +6,14 @@ int main (void)
 {
     int n;
     
-    printf("number: ");
-    scanf("%i", &n);
-    meow(n);
+    do
+    {
+        /* code */
+        printf("number: ");
+        scanf("%i", &n);
+    } while (n < 1);
+
+        meow(n);
 }
 
 void meow (int n)
