@@ -1,10 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void meow (int n);
 
-int main ()
+int main (void)
 {
-    meow(2);
+    int n;
+    
+    printf("number: ");
+    scanf("%i", &n);
+    meow(n);
 }
 
 void meow (int n)
