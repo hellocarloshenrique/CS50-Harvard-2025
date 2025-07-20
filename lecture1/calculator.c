@@ -2,15 +2,15 @@
 
 int main(void)
 {
-    int x;
+    float x;
     printf("x: ");
-    scanf("%i", &x);
+    scanf("%f", &x);
 
-    int y;
+    float y;
     printf("y: ");
-    scanf("%i", &y);
+    scanf("%f", &y);
 
-    int z = x + y;
+    float z = x / y;
 
-    printf("a soma e: %i\n", z);
+    printf("resultado e: %f\n", z);
 }
