@@ -4,7 +4,8 @@ void print_row(int n);
 
 int main (void)
 {   
-    int n = 3;
+    // never change n, man
+    const int n = 3;
     for (int row = 0; row < n; row++)
     {
         print_row(n);
